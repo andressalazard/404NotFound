@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Space Mono');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/*--Header--*/
+
+header #error-code{
+    padding: 5px 20px;
+    color: #2d2d2d;
+    font: 15px bold;
+    font-family: Inconsolata;
+}
+
+
+/*--Image--*/
+#error-image {
+    padding: 20px;
+}
+
+
+/*--Message--*/
+
+#error-message{
+    float: right;
+    font-family: 'Space Mono';
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#error-message h1{
+    font-weight: bolder;
+    color: #333333;
+    line-height: 95%;
+}
+
+#error-message p{
+    padding-left: 5px;
+    color:#4f4f4f;
+}
+
+
+/*--Button--*/
+#return-button{
+    border: 3px solid #333333;
+    display: inline-block;
+    padding: 20px 40px;
+    margin-bottom: 8px;
+    text-align: center;
+    background-color: #333333;
+    color: #fff;
+}
+
+#return-button:hover {
+    border: 3px solid #a1a1a1;
+    cursor: pointer;
+}
+
+#return-button:active {
+    font-weight: bold;
+    background-color: #2d2d2d;
+}
+
+/*--Footer--*/
+footer {
+    display: block;
+    color: #a1a1a1;
+    text-align: center;
+    font-family: Montserrat;
+}
+
+/*Media Queries*/
+
+@media screen and (min-width: 500px){
+    #error-image img{
+        width: 45%;
+    }
+
+    #error-message h1{
+        font-size: 60px;
+    }
+
+    #error-message p{
+        font-size: 28px;
+    }
+
+    #return-button{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    #error-message{
+        width: 90%;
+        padding-left: 5px;
+    }
+
+    #error-message h1{
+        font-size: 36px;
+    }
+
+    #error-message p{
+        font-size: 20px;
+    }
+
+    #error-image img{
+        width:100%;
+    }
+
+    #return-button {
+        font-size: 12px;
+    }
+}
+
+
+
+
