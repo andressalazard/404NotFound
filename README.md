@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://404-not-found-phi.vercel.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/andressalazard/404NotFound">
       Solution
     </a>
     <span> | </span>
@@ -70,6 +70,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://github.com/andressalazard)
-- Twitter [@your-twitter](https://twitter.com/anfersadu)
+- GitHub [@andressalazard](https://github.com/andressalazard)
+- Twitter [@anfersadu](https://twitter.com/anfersadu)
